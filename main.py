@@ -51,8 +51,3 @@ def get_random_names(list_of_names: list, number: int):
 
     print(random.choices(list_of_names, k=number))
 
-
-user_names_list = get_list_of_users_names()
-number = get_number_of_names(user_names_list)
-
-get_random_names(user_names_list, number)
